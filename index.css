@@ -1,5 +1,4 @@
 header {
-    background-color: aqua;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -7,7 +6,6 @@ header {
 }
 
 main {
-    background-color: bisque;
     min-height: 80vh;
     padding: 3rem 10px;
 }
@@ -92,7 +90,6 @@ main {
 }
 
 footer {
-    background-color: blueviolet;
     height: 10vh;
     display: flex;
     justify-content: center;
