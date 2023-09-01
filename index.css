@@ -1,0 +1,100 @@
+header {
+    background-color: aqua;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: bisque;
+    min-height: 80vh;
+    padding: 3rem 10px;
+}
+
+.calendar {
+    background-color: aliceblue;
+    border-radius: 35px;
+    padding: 10px 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.calendar-currentDate {
+    text-align: center;
+}
+
+.calendar-weekDays {
+    padding: 0 5px;
+    display: flex;
+}
+
+.calendar-weekDay {
+    width: 14.28%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.calendar-days {
+    padding: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar-day {
+    width: 14.28%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.calendar-day-thisDate {
+    width: 14.28%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: chocolate;
+    border-radius: 35px;
+}
+
+.calendar-day-unThisMonth {
+    width: 14.28%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(174, 180, 178);
+}
+
+.calendar-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar-actions-left {
+    margin-left: 25px;
+}
+
+.calendar-actions-left-currentMonth {
+    padding: 0 8px;
+}
+
+.calendar-actions-right {
+    margin-right: 25px;
+}
+
+.calendar-actions-right-prvMonth {
+    padding: 0 8px;
+}
+
+.calendar-actions-right-nextMonth {
+    padding: 0 8px;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
